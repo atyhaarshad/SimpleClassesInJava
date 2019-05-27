@@ -26,4 +26,15 @@ public class BottleTest {
         assertEquals(volAfterEmptyBottle, 0);
 
     }
+
+    @Test
+    public void fillsBottleToFullVol(){
+
+        bottle.empty();
+        bottle.fill();
+        int volAfterFill = bottle.getVolume();
+
+        assertEquals(volAfterFill, 100);
+    }
+
 }
