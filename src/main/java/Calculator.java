@@ -19,4 +19,8 @@ public class Calculator {
     public double divide(){
         return (this.firstNum / this.secondNum);
     }
+
+    public double multiply() {
+        return (this.firstNum * this.secondNum);
+    }
 }
